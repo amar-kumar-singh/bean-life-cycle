@@ -13,7 +13,7 @@ public class AwareBeanImpl implements ApplicationContextAware,  BeanNameAware , 
 
 	@Override
 	public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-	System.out.println("setBeanFactory method of AwareBeanImpl is called");
+	System.out.println("setBeanFactory method of AwareBeanImpl is called by me for remember ");
 	System.out.println("setBeanFactory:: AwareBeanImpl singleton= "
 	+ beanFactory.isSingleton("awareBean"));
 	}
